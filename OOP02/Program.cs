@@ -3,6 +3,10 @@
     using System;
     public class Program
     {
+        #region Question3
+        //Create an array of Employees with size three a DBA, Guest and the third one is security officer who have full permissions. (Employee [] EmpArr;)
+        public string[] securityPrivileges = { "Guest", "DBA", "Secuirty officer" };
+        #endregion
         #region Question1
         //Design and implement a Class for the employees in a company:
         public class Employee
